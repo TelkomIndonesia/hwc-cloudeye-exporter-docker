@@ -1,0 +1,12 @@
+global:
+  prefix: "huaweicloud"
+  port: ":8087"
+  metric_path: "/metrics"
+  scrape_batch_size: 300
+
+auth:
+  auth_url: "https://iam.{{ .Env.HUAWEICLOUD_IAM_REGION_ID }}.myhuaweicloud.com/v3"
+  access_key: "{{ .Env.HUAWEICLOUD_IAM_ACCESS_KEY }}"
+  secret_key: "{{ .Env.HUAWEICLOUD_IAM_SECRET_KEY }}"
+  region: "{{ .Env.HUAWEICLOUD_CES_REGION_ID }}"
+  project_name: "{{ .Env.HUAWEICLOUD_CES_PROJECT_NAME }}"

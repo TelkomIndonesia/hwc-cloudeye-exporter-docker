@@ -1,0 +1,11 @@
+services:
+  cloudeye_exporter:
+    build: .
+    environment:
+      HUAWEICLOUD_IAM_REGION_ID:
+      HUAWEICLOUD_IAM_ACCESS_KEY:
+      HUAWEICLOUD_IAM_SECRET_KEY:
+      HUAWEICLOUD_CES_PROJECT_NAME:
+      HUAWEICLOUD_CES_REGION_ID:
+    ports:
+      - 8087:8087

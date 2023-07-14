@@ -1,0 +1,3 @@
+business:
+  - level: "info"
+    enabled: true
