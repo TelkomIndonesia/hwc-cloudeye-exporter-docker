@@ -7,6 +7,7 @@ Docker image for Huawei Cloud - [Cloud Eye Exporter](https://github.com/huaweicl
 - `HUAWEICLOUD_IAM_REGION_ID` = region id for authenticating to IAM
 - `HUAWEICLOUD_IAM_ACCESS_KEY` = access key for authenticating to IAM
 - `HUAWEICLOUD_IAM_SECRET_KEY` = secret key for authenticating to IAM
+- `HUAWEICLOUD_IAM_DOMAIN_NAME` = domain name for authenticating to IAM
 - `HUAWEICLOUD_CES_PROJECT_NAME` = IAM project name for cloud eye service
 - `HUAWEICLOUD_CES_REGION_ID` = regioun id fo the cloud eye service
 
